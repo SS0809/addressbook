@@ -18,6 +18,7 @@ public class AddressController {
 
     @Autowired
     AddressService addressService;
+    //Dependency Injection is used to produce Objects without new key word
 
     @GetMapping(value = "/getAddresses" ,produces = "application/json")
     public ResponseEntity<List<AddressResponseDTO>> getAll(){

@@ -12,6 +12,7 @@ import lombok.*;
 @Table(name = "addresses")
 //creates table of name addresses
 public class AddressEntity {
+    //used by service layer to CRUD in Repository
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
