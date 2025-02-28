@@ -16,6 +16,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AddressResponseDTO {
+    //DTO special for Response design
     private Long id;
     private String address;
 }

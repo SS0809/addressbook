@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AddressRequestDTO {
+    //DTO special for Request design
     @NotNull(message = "ID CAN't be NULL")
     private Long id;
 }
